@@ -20,7 +20,7 @@ function App() {
 
       {/* <Header /> */}
       <header className="flex items-center justify-between p-6">
-      <a href="/" className="text-brown-900 text-xl font-serif">
+      <a href="/" className="text-brown-200 text-xl font-serif">
         Elephant & Cat's Website
       </a>
       <button className="flex items-center gap-2 text-sm text-brown-600">
@@ -37,7 +37,14 @@ function App() {
         小向和小贾的世界
       </h1>
       <FaPaw className="text-brown-200" size={64} />   
-      <p className='text-xl font-serif leading-8 m-4'>     
+      <p className='text-brown-200 text-xl font-serif leading-8 m-4'>     
+      ​小向 -- 没头脑，小贾 -- 不高兴。
+        <br />
+        小向 -- 吴彦祖，小贾 -- 张曼玉。
+        <br />
+        ​小向 -- 阿古保镖，小贾 -- 小猫公主。
+        </p>
+      <p className='text-brown-200 text-xl font-serif leading-8 m-4'>     
         在这里，你将发现小向和小贾的美好瞬间和难忘的回忆。
         <br />
         希望你离开时也带着快乐和甜蜜的记忆。
